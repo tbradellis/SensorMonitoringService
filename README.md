@@ -5,9 +5,9 @@ This service collects hardware information using OSHI APIs
 
 Poll each metric once per second for the following metrics:
 
-Fan Speed
-CPU Voltage (if provided by the OS)
-CPU Temp 
+Fan Speed rpm\n
+CPU Voltage (if provided by the OS)\n
+CPU Temp in F and C\n
 
 The main branch is currently (3/21) a proof of concept.  Each metric above is gathered during one method that runs in main.
 
