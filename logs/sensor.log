@@ -1,0 +1,1144 @@
+Mar 22, 2019 7:09:13 AM com.bellis.oshi.ApplicationCore main
+INFO: Initializing SystemInfo
+Mar 22, 2019 7:09:13 AM com.bellis.oshi.ApplicationCore main
+INFO: Checking local system
+Mar 22, 2019 7:09:13 AM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: Manufacturer: Apple Inc.
+Mar 22, 2019 7:09:13 AM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: model: MacBook Pro (MacBookPro13,3)
+Mar 22, 2019 7:09:13 AM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: serialnumber: C02TD0LSH03Y
+Mar 22, 2019 7:09:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:09:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:10:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:11:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:12:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:13:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:14:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:15:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:16:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:22 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:34 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:46 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:48 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:53 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:55 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:17:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:13 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:16 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:19 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:25 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:27 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:30 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:32 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:37 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:39 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:41 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:44 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:50 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:57 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:18:59 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:02 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:04 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:06 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:09 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:11 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:14 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:15 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:17 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:18 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:20 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:21 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:23 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:24 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:26 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:28 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:29 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:31 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:33 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:35 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:36 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:38 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:40 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:42 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:43 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:45 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:47 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:49 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:51 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:52 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:54 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:56 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:19:58 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:00 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:01 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:03 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:05 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:07 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:08 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:10 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Mar 22, 2019 7:20:12 AM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
