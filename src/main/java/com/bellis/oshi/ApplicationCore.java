@@ -81,6 +81,9 @@ public class ApplicationCore {
         float fahrenheit = (float)(((9.0/5.0) * celsius) + 32);
         NewRelic.recordMetric(CPU_TMP_CELSIUS,celsius );
         NewRelic.recordMetric(CPU_TMP_FAHRENHEIT,fahrenheit );
+        NewRelic.incrementCounter(CPU_TMP_FAHRENHEIT, 1);
+        NewRelic.incrementCounter(CPU_TMP_CELSIUS, -1);
+
         LOGGER.log(Level.FINEST,"Checking Sensors:");
         LOGGER.log(Level.FINEST, "CPU Temperature: %1f°C%n", celsius );
         LOGGER.log(Level.FINEST, "CPU Temperature: %1f°F%n", fahrenheit );
