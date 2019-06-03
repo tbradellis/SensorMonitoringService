@@ -1,5 +1,6 @@
 package com.bellis.oshi;
 
+import com.bellis.kafka.producer.MetricPublisher;
 import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.Trace;
 import oshi.SystemInfo;
@@ -10,6 +11,8 @@ import oshi.software.os.OperatingSystem;
 
 import java.io.IOException;
 import java.util.Arrays;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
@@ -55,13 +58,17 @@ public class ApplicationCore {
 
         LOGGER.log(Level.INFO,"Checking local system");
         printComputerSystem(hal.getComputerSystem());
-
+        MetricPublisher publisher = new MetricPublisher("topic1", true);
+        ExecutorService executor = Executors.newSingleThreadExecutor();
+        executor.submit(publisher);
         while(true){
             sendSensorInfo(hal.getSensors());
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 LOGGER.log(Level.SEVERE, "sleep interrupted", e);
+            } finally {
+                executor.shutdown();
             }
         }
 
