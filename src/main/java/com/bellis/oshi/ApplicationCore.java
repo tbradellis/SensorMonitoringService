@@ -1,5 +1,6 @@
 package com.bellis.oshi;
 
+import com.bellis.kafka.KafkaProperties;
 import com.bellis.kafka.producer.MetricPublisher;
 import com.newrelic.api.agent.NewRelic;
 import com.newrelic.api.agent.Trace;
@@ -58,7 +59,7 @@ public class ApplicationCore {
 
         LOGGER.log(Level.INFO,"Checking local system");
         printComputerSystem(hal.getComputerSystem());
-        MetricPublisher publisher = new MetricPublisher("topic1", true);
+        MetricPublisher publisher = new MetricPublisher(KafkaProperties.TOPIC, true);
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(publisher);
         while(true){

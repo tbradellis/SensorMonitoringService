@@ -2,19 +2,22 @@ package com.bellis.kafka.producer;
 
 import com.bellis.SystemAbstraction;
 import com.bellis.kafka.KafkaProperties;
+import com.newrelic.api.agent.Trace;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
-import org.apache.kafka.common.serialization.IntegerSerializer;
+import org.apache.kafka.clients.producer.RecordMetadata;
+import org.apache.kafka.common.serialization.FloatSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
 public class MetricPublisher implements Runnable {
 
-    private final KafkaProducer<String, Integer> producer;
-    public SystemAbstraction sysAb;
-    public String topic;
+    private final KafkaProducer<String, Float> producer;
+    public SystemAbstraction systemAbstraction;
+    private String topic;
 
     public MetricPublisher(String topic, Boolean isAsync){
         this.topic = topic;
@@ -25,9 +28,9 @@ public class MetricPublisher implements Runnable {
         kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class.getName());
         kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
-                IntegerSerializer.class.getName());
-        producer = new KafkaProducer<String, Integer>(kafkaProps);
-        sysAb = initSystemAbstraction();
+                FloatSerializer.class.getName());
+        producer = new KafkaProducer<>(kafkaProps);
+        systemAbstraction = initSystemAbstraction();
 
     }
 
@@ -43,10 +46,17 @@ public class MetricPublisher implements Runnable {
         }
 
     }
-
+    @Trace(dispatcher=true)
     public void publish(){
-        producer.send(new ProducerRecord<String, Integer>(topic,"Custom/CPU_Temp/Celsius",
-                (int)sysAb.sensors.getCpuTemperature()));
+        try{
+            ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
+                    (float)systemAbstraction.sensors.getCpuTemperature());
+            RecordMetadata metadata = producer.send(record).get();
+            System.out.println(metadata.timestamp() + " " + metadata.offset() + " " + metadata.topic());
+        } catch ( InterruptedException | ExecutionException e){
+            e.printStackTrace();
+        }
+
     }
 
 
