@@ -1,0 +1,10 @@
+Jun 12, 2019 7:43:04 PM com.bellis.oshi.ApplicationCore main
+INFO: Initializing SystemInfo
+Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore main
+INFO: Checking local system
+Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: Manufacturer: Apple Inc.
+Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: model: MacBook Pro (MacBookPro13,3)
+Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+INFO: serialnumber: C02TD0LSH03Y
