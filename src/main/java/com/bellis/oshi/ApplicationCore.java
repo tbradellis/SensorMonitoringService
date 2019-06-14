@@ -56,6 +56,16 @@ public class ApplicationCore {
         SystemInfo si = new SystemInfo();
         HardwareAbstractionLayer hal = si.getHardware();
         OperatingSystem os = si.getOperatingSystem();
+        System.out.println("-------------");
+        System.out.println(hal.getProcessor().getFamily() + hal.getProcessor().getModel());
+
+        System.out.println("model " + hal.getProcessor().getModel());
+        System.out.println("family " + hal.getProcessor().getFamily());
+        System.out.println("name " + hal.getProcessor().getName());
+        System.out.println("Identifier " + hal.getProcessor().getIdentifier());
+        System.out.println("processor Id " + hal.getProcessor().getProcessorID());
+
+
 
         LOGGER.log(Level.INFO,"Checking local system");
         printComputerSystem(hal.getComputerSystem());
@@ -72,7 +82,6 @@ public class ApplicationCore {
                 executor.shutdown();
             }
         }
-
 
     }
 
@@ -99,6 +108,7 @@ public class ApplicationCore {
         //TODO this should be implemented to handle different #s of fans
         //Possible use a case statement for 0-4
         int[] fans = sensors.getFanSpeeds();
+
         int fan1 = fans[0];
         int fan2 = fans[1];
         NewRelic.recordMetric(RPM_SPD_FAN1, fan1);

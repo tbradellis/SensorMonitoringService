@@ -1,6 +1,7 @@
 package com.bellis;
 
 import oshi.SystemInfo;
+import oshi.hardware.ComputerSystem;
 import oshi.hardware.HardwareAbstractionLayer;
 import oshi.hardware.Sensors;
 import oshi.software.os.OperatingSystem;
@@ -13,6 +14,7 @@ public class SystemAbstraction {
     public static HardwareAbstractionLayer hal;
     public static OperatingSystem os;
     public static Sensors sensors;
+    public static ComputerSystem cs;
     private SystemAbstraction(){
 
     }
@@ -24,7 +26,9 @@ public class SystemAbstraction {
             hal = si.getHardware();
             os = si.getOperatingSystem();
             sensors = hal.getSensors();
+            cs = hal.getComputerSystem();
         }
         return sSystemAbstraction;
     }
+
 }

@@ -11,7 +11,6 @@ import org.apache.kafka.common.serialization.FloatSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
-import java.util.concurrent.ExecutionException;
 
 public class MetricPublisher implements Runnable {
 
@@ -36,6 +35,11 @@ public class MetricPublisher implements Runnable {
 
     @Override
     public void run() {
+//        System.out.println(systemAbstraction.cs.getManufacturer());
+//        System.out.println(systemAbstraction.cs.getModel());
+//        System.out.println(systemAbstraction.cs.getSerialNumber());
+
+
         while(true){
             publish();
             try{
@@ -48,17 +52,41 @@ public class MetricPublisher implements Runnable {
     }
     @Trace(dispatcher=true)
     public void publish(){
+        publishCPUTemp();
+        publishFanSpeeds();
+    }
+
+    @Trace
+    public void publishCPUTemp(){
         try{
+
             ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
                     (float)systemAbstraction.sensors.getCpuTemperature());
             RecordMetadata metadata = producer.send(record).get();
-            System.out.println(metadata.timestamp() + " " + metadata.offset() + " " + metadata.topic());
-        } catch ( InterruptedException | ExecutionException e){
+            System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+
+        } catch (Exception e){
             e.printStackTrace();
         }
+    }
+    @Trace
+    public void publishFanSpeeds(){
+
+       try{
+           int[] fans = systemAbstraction.sensors.getFanSpeeds();
+           for( int i = 0; i < fans.length; i++){
+
+               ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/fan_spd/fan" + i,
+                       (float) fans[i] );
+               RecordMetadata metadata = producer.send(record).get();
+               System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+           }
+
+        }catch(Exception e){
+           e.printStackTrace();
+       }
 
     }
-
 
     private SystemAbstraction initSystemAbstraction(){
         return SystemAbstraction.initAndGetSystemAbstraction();
