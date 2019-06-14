@@ -1,5 +1,8 @@
 # SensorMonitoringService
 
+This diagram is a hint at the direction this project is going.  Much of it is experimental in effort to learn Kafka.
+I'll build two different consumers. One will send to New Relic after getting metrics from the Kafka topic.
+The second consumer will be to put metrics into an on-prem style timeseries database.  I'll build a small UI to visualize that data.
 
 ![architecture](images/oshiKafka.png)
 
