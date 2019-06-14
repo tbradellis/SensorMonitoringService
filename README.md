@@ -25,6 +25,6 @@ Next up is to create a generic consumer and send metrics to a db.
 Visualize via DB.
 
 Additionally, will have a second consumer that pulls metrics from topic and sends straight to New Relic.
-
+.
 
 ![](images/sensordashboard.png)
