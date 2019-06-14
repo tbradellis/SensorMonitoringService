@@ -1,41 +1,30 @@
 # SensorMonitoringService
 
-This diagram is a hint at the direction this project is going.  Much of it is experimental in effort to learn Kafka.
+This diagram is a hint at the direction this project is going (it needs some updates to the consumer layout).  Much of it is experimental in effort to learn Kafka.
 I'll build two different consumers. One will send to New Relic after getting metrics from the Kafka topic.
 The second consumer will be to put metrics into an on-prem style timeseries database.  I'll build a small UI to visualize that data.
 
 ![architecture](images/oshiKafka.png)
 
 
-This service collects hardware information using OSHI APIs
+This service collects hardware information using OSHI APIs that are built into a computer system abstraction. 
 
 Poll each metric once per second for the following metrics:
 
-Fan Speed rpm\n
-CPU Voltage (if provided by the OS)\n
-CPU Temp in F and C\n
+Fan Speed rpm
 
-The main branch is currently (3/21) a proof of concept.  Each metric above is gathered during one method that runs in main.
+CPU Voltage (if provided by the OS)
 
-I need create a design that can be more easily extended.  Check branches for work in progress.
+CPU Temp in C.  Any changes to metrics (i.e. conversions) will be completed on the consumer side.
+Added a Kafka producer to send metrics through Kafka first. 
 
 
-The only dependency as of now (3/21) is oshi-core.
-
-Added a Kafka producer to send metrics through Kafka first.  
 
 Next up is to create a generic consumer and send metrics to a db.
 
 Visualize via DB.
 
 Additionally, will have a second consumer that pulls metrics from topic and sends straight to New Relic.
-
-
-The UI for this is New Relic.  I'm using the Java Agent and custom instrumentation with the ```@Trace``` annotations and ```NewRelic.recordMetric()```.  I may decide to fork oshi core and build the instrumentation directly into core for deeper.
-I could also just use XML or or CIE in NR to get deeper visibility.  Or build a custom extension in-house NR. Which I would not be able to publish here.
-
-
-
 
 
 ![](images/sensordashboard.png)
