@@ -1,10 +1,38 @@
-Jun 12, 2019 7:43:04 PM com.bellis.oshi.ApplicationCore main
+Jun 21, 2019 4:42:38 PM com.bellis.oshi.ApplicationCore main
 INFO: Initializing SystemInfo
-Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore main
+Jun 21, 2019 4:42:38 PM com.bellis.oshi.ApplicationCore main
 INFO: Checking local system
-Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+Jun 21, 2019 4:42:38 PM com.bellis.oshi.ApplicationCore printComputerSystem
 INFO: Manufacturer: Apple Inc.
-Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+Jun 21, 2019 4:42:38 PM com.bellis.oshi.ApplicationCore printComputerSystem
 INFO: model: MacBook Pro (MacBookPro13,3)
-Jun 12, 2019 7:43:05 PM com.bellis.oshi.ApplicationCore printComputerSystem
+Jun 21, 2019 4:42:38 PM com.bellis.oshi.ApplicationCore printComputerSystem
 INFO: serialnumber: C02TD0LSH03Y
+Jun 21, 2019 4:42:39 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:40 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:41 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:42 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:43 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:45 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:46 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:47 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:48 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:49 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:50 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:51 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:52 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
+Jun 21, 2019 4:42:53 PM com.bellis.oshi.ApplicationCore sendSensorInfo
+INFO: Sending metrics
