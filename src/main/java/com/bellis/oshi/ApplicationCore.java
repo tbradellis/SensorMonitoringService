@@ -72,6 +72,8 @@ public class ApplicationCore {
         MetricPublisher publisher = new MetricPublisher(KafkaProperties.TOPIC, true);
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(publisher);
+        //This is for sending straight to New Relic...bypasses Kafka and is just for experimental
+        //purposes at the moment.  It will go away.
         while(true){
             sendSensorInfo(hal.getSensors());
             try {
