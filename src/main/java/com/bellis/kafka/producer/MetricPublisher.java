@@ -15,7 +15,7 @@ import java.util.Properties;
 public class MetricPublisher implements Runnable {
 
     private final KafkaProducer<String, Float> producer;
-    public SystemAbstraction systemAbstraction;
+    public static SystemAbstraction systemAbstraction;
     private String topic;
 
     public MetricPublisher(String topic, Boolean isAsync){
@@ -35,9 +35,8 @@ public class MetricPublisher implements Runnable {
 
     @Override
     public void run() {
-//        System.out.println(systemAbstraction.cs.getManufacturer());
-//        System.out.println(systemAbstraction.cs.getModel());
-//        System.out.println(systemAbstraction.cs.getSerialNumber());
+        systemAbstraction.printComputerSystem();
+
 
 
         while(true){
@@ -61,7 +60,7 @@ public class MetricPublisher implements Runnable {
         try{
 
             ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
-                    (float)systemAbstraction.sensors.getCpuTemperature());
+                    (float)systemAbstraction.getSensors().getCpuTemperature());
             RecordMetadata metadata = producer.send(record).get();
             System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
 
@@ -73,7 +72,7 @@ public class MetricPublisher implements Runnable {
     public void publishFanSpeeds(){
 
        try{
-           int[] fans = systemAbstraction.sensors.getFanSpeeds();
+           int[] fans = systemAbstraction.getSensors().getFanSpeeds();
            for( int i = 0; i < fans.length; i++){
 
                ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/fan_spd/fan" + i,
@@ -87,8 +86,10 @@ public class MetricPublisher implements Runnable {
        }
 
     }
-
-    private SystemAbstraction initSystemAbstraction(){
-        return SystemAbstraction.initAndGetSystemAbstraction();
+    private static SystemAbstraction initSystemAbstraction(){
+        if(systemAbstraction == null){
+            SystemAbstraction.initAndGetSystemAbstraction();
+        }
+        return systemAbstraction;
     }
 }
