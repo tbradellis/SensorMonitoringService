@@ -62,7 +62,7 @@ public class MetricPublisher implements Runnable {
             ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
                     (float)systemAbstraction.getSensors().getCpuTemperature());
             RecordMetadata metadata = producer.send(record).get();
-            System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+            System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
 
         } catch (Exception e){
             e.printStackTrace();
@@ -78,7 +78,7 @@ public class MetricPublisher implements Runnable {
                ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/fan_spd/fan" + i,
                        (float) fans[i] );
                RecordMetadata metadata = producer.send(record).get();
-               System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+               System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
            }
 
         }catch(Exception e){
