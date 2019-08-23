@@ -55,7 +55,7 @@ public class MetricPublisher implements Runnable {
         publishCPUTemp();
         publishFanSpeeds();
     }
-
+    //TODO change the publisher methods so that they add metrics to a MeasurementEvent
     @Trace
     public void publishCPUTemp(){
         try{
