@@ -7,15 +7,16 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import org.apache.kafka.common.serialization.FloatSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
 
+import static com.bellis.kafka.KafkaProperties.MEASUREMENT_EVENT_SERIALIZER;
+
 public class MetricPublisher implements Runnable {
 
     private final KafkaProducer<String, Float> producer;
-    public SystemAbstraction systemAbstraction;
+    public static SystemAbstraction systemAbstraction;
     private String topic;
 
     public MetricPublisher(String topic, Boolean isAsync){
@@ -27,7 +28,7 @@ public class MetricPublisher implements Runnable {
         kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class.getName());
         kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
-                FloatSerializer.class.getName());
+                MEASUREMENT_EVENT_SERIALIZER);
         producer = new KafkaProducer<>(kafkaProps);
         systemAbstraction = initSystemAbstraction();
 
@@ -35,9 +36,8 @@ public class MetricPublisher implements Runnable {
 
     @Override
     public void run() {
-//        System.out.println(systemAbstraction.cs.getManufacturer());
-//        System.out.println(systemAbstraction.cs.getModel());
-//        System.out.println(systemAbstraction.cs.getSerialNumber());
+        systemAbstraction.printComputerSystem();
+
 
 
         while(true){
@@ -55,15 +55,15 @@ public class MetricPublisher implements Runnable {
         publishCPUTemp();
         publishFanSpeeds();
     }
-
+    //TODO change the publisher methods so that they add metrics to a MeasurementEvent
     @Trace
     public void publishCPUTemp(){
         try{
 
             ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
-                    (float)systemAbstraction.sensors.getCpuTemperature());
+                    (float)systemAbstraction.getSensors().getCpuTemperature());
             RecordMetadata metadata = producer.send(record).get();
-            System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+            System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
 
         } catch (Exception e){
             e.printStackTrace();
@@ -73,13 +73,13 @@ public class MetricPublisher implements Runnable {
     public void publishFanSpeeds(){
 
        try{
-           int[] fans = systemAbstraction.sensors.getFanSpeeds();
+           int[] fans = systemAbstraction.getSensors().getFanSpeeds();
            for( int i = 0; i < fans.length; i++){
 
                ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/fan_spd/fan" + i,
                        (float) fans[i] );
                RecordMetadata metadata = producer.send(record).get();
-               System.out.print(metadata.topic() + " " + metadata.offset() + " " + metadata.toString());
+               System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
            }
 
         }catch(Exception e){
@@ -87,8 +87,10 @@ public class MetricPublisher implements Runnable {
        }
 
     }
-
-    private SystemAbstraction initSystemAbstraction(){
-        return SystemAbstraction.initAndGetSystemAbstraction();
+    private static SystemAbstraction initSystemAbstraction(){
+        if(systemAbstraction == null){
+            SystemAbstraction.initAndGetSystemAbstraction();
+        }
+        return systemAbstraction;
     }
 }

@@ -2,16 +2,8 @@ package com.bellis.oshi;
 
 import com.bellis.kafka.KafkaProperties;
 import com.bellis.kafka.producer.MetricPublisher;
-import com.newrelic.api.agent.NewRelic;
-import com.newrelic.api.agent.Trace;
-import oshi.SystemInfo;
-import oshi.hardware.ComputerSystem;
-import oshi.hardware.HardwareAbstractionLayer;
-import oshi.hardware.Sensors;
-import oshi.software.os.OperatingSystem;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.logging.FileHandler;
@@ -33,10 +25,6 @@ Caused by: java.lang.ClassNotFoundException: oshi.SystemInfo
 */
 public class ApplicationCore {
     private static final Logger LOGGER = Logger.getLogger("SensorLogger");
-    private static final String CPU_TMP_FAHRENHEIT = "Custom/CPU_Temp/Fahrenheit";
-    private static final String CPU_TMP_CELSIUS = "Custom/CPU_Temp/Celsius";
-    private static final String RPM_SPD_FAN1 = "Custom/fan_spd/fan1";
-    private static final String RPM_SPD_FAN2 = "Custom/fan_spd/fan2";
     private static String log_location = "logs/sensor.log";
     //TODO add a shutdown hook
     public static void main(String[] args){
@@ -53,68 +41,13 @@ public class ApplicationCore {
 
         LOGGER.log(Level.INFO, "Initializing SystemInfo");
 
-        SystemInfo si = new SystemInfo();
-        HardwareAbstractionLayer hal = si.getHardware();
-        OperatingSystem os = si.getOperatingSystem();
-        System.out.println("-------------");
-        System.out.println(hal.getProcessor().getFamily() + hal.getProcessor().getModel());
-
-        System.out.println("model " + hal.getProcessor().getModel());
-        System.out.println("family " + hal.getProcessor().getFamily());
-        System.out.println("name " + hal.getProcessor().getName());
-        System.out.println("Identifier " + hal.getProcessor().getIdentifier());
-        System.out.println("processor Id " + hal.getProcessor().getProcessorID());
-
-
-
         LOGGER.log(Level.INFO,"Checking local system");
-        printComputerSystem(hal.getComputerSystem());
         MetricPublisher publisher = new MetricPublisher(KafkaProperties.TOPIC, true);
         ExecutorService executor = Executors.newSingleThreadExecutor();
         executor.submit(publisher);
-        //This is for sending straight to New Relic...bypasses Kafka and is just for experimental
-        //purposes at the moment.  It will go away.
-        while(true){
-            sendSensorInfo(hal.getSensors());
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                LOGGER.log(Level.SEVERE, "sleep interrupted", e);
-            } finally {
-                executor.shutdown();
-            }
-        }
 
     }
 
-    private static void printComputerSystem(final ComputerSystem cs){
-        LOGGER.log(Level.INFO, "Manufacturer: " + cs.getManufacturer());
-        LOGGER.log(Level.INFO,"model: " + cs.getModel());
-        LOGGER.log(Level.INFO,"serialnumber: " + cs.getSerialNumber());
-    }
-    //TODO separate possibly separate each metric type into different methods to track time of each call
-    @Trace(dispatcher = true)
-    private static void sendSensorInfo(Sensors sensors){
-        LOGGER.log(Level.INFO, "Sending metrics");
-        float celsius = (float)sensors.getCpuTemperature();
-        float fahrenheit = (float)(((9.0/5.0) * celsius) + 32);
-        NewRelic.recordMetric(CPU_TMP_CELSIUS,celsius );
-        NewRelic.recordMetric(CPU_TMP_FAHRENHEIT,fahrenheit );
-        NewRelic.incrementCounter(CPU_TMP_FAHRENHEIT, 1);
-        NewRelic.incrementCounter(CPU_TMP_CELSIUS, -1);
 
-        LOGGER.log(Level.FINEST,"Checking Sensors:");
-        LOGGER.log(Level.FINEST, "CPU Temperature: %1f°C%n", celsius );
-        LOGGER.log(Level.FINEST, "CPU Temperature: %1f°F%n", fahrenheit );
 
-        //TODO this should be implemented to handle different #s of fans
-        //Possible use a case statement for 0-4
-        int[] fans = sensors.getFanSpeeds();
-
-        int fan1 = fans[0];
-        int fan2 = fans[1];
-        NewRelic.recordMetric(RPM_SPD_FAN1, fan1);
-        NewRelic.recordMetric(RPM_SPD_FAN2, fan2);
-        LOGGER.log(Level.FINEST,"Fan Speeds: ", Arrays.toString(fans));
-    }
 }

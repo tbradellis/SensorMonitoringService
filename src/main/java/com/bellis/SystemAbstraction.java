@@ -10,11 +10,11 @@ public class SystemAbstraction {
 
 
     private static SystemAbstraction sSystemAbstraction;
-    public static SystemInfo si;
-    public static HardwareAbstractionLayer hal;
-    public static OperatingSystem os;
-    public static Sensors sensors;
-    public static ComputerSystem cs;
+    private static SystemInfo si;
+    private static HardwareAbstractionLayer hal;
+    private static OperatingSystem os;
+    private static Sensors sensors;
+    private static ComputerSystem cs;
     private SystemAbstraction(){
 
     }
@@ -29,6 +29,31 @@ public class SystemAbstraction {
             cs = hal.getComputerSystem();
         }
         return sSystemAbstraction;
+    }
+    public static SystemInfo getSi() {
+        return si;
+    }
+
+    public static HardwareAbstractionLayer getHal() {
+        return hal;
+    }
+
+    public static OperatingSystem getOs() {
+        return os;
+    }
+
+    public static Sensors getSensors() {
+        return sensors;
+    }
+    public ComputerSystem getComputerSystem(){
+        return this.cs;
+    }
+
+    public static void printComputerSystem(){
+        System.out.println("Manufacturer: " + cs.getManufacturer());
+        System.out.println("model: " + cs.getModel());
+        System.out.println("serial number: " + cs.getSerialNumber());
+
     }
 
 }
