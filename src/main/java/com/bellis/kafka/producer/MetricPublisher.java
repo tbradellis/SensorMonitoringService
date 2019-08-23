@@ -7,10 +7,11 @@ import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
-import org.apache.kafka.common.serialization.FloatSerializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
 import java.util.Properties;
+
+import static com.bellis.kafka.KafkaProperties.MEASUREMENT_EVENT_SERIALIZER;
 
 public class MetricPublisher implements Runnable {
 
@@ -27,7 +28,7 @@ public class MetricPublisher implements Runnable {
         kafkaProps.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG,
                 StringSerializer.class.getName());
         kafkaProps.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG,
-                FloatSerializer.class.getName());
+                MEASUREMENT_EVENT_SERIALIZER);
         producer = new KafkaProducer<>(kafkaProps);
         systemAbstraction = initSystemAbstraction();
 

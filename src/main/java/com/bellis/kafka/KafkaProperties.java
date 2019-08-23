@@ -9,6 +9,7 @@ public class KafkaProperties {
     public static final int KAFKA_PRODUCER_BUFFER_SIZE = 64 * 1024;
     public static final int CONNECTION_TIMEOUT = 100000;
     public static final String HARDWARE_GROUP = "nr-group";
+    public static final String MEASUREMENT_EVENT_SERIALIZER = "com.bellis.oshi.MeasurementEventSerializer";
 
 
     private KafkaProperties() {}
