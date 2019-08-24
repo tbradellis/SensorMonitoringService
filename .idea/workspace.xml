@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f97a46-027d-4269-9662-7eae0da3f99a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellis/kafka/producer/MetricPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellis/kafka/producer/MetricPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bellis/SystemAbstraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bellis/kafka/KafkaProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bellis/kafka/producer/MetricPublisher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/bellis/oshi/ApplicationCore.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,10 +28,11 @@
     <session id="-800813510">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="31" />
           <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
@@ -40,6 +43,7 @@
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="3" />
@@ -49,20 +53,20 @@
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.84" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="40" />
+          <entry key="project.opened" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="40" />
-          <entry key="java" value="7600" />
+          <entry key="java" value="7791" />
           <entry key="md" value="2855" />
           <entry key="xml" value="143" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7600" />
+          <entry key="JAVA" value="7791" />
           <entry key="Markdown" value="2855" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="143" />
@@ -73,7 +77,7 @@
           <entry key="1" value="2" />
           <entry key="class" value="5" />
           <entry key="iml" value="3" />
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
           <entry key="log" value="5" />
           <entry key="md" value="4" />
           <entry key="png" value="2" />
@@ -85,7 +89,7 @@
           <entry key="CLASS" value="5" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
           <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="XML" value="6" />
@@ -98,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/SystemAbstraction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="683">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#978#979#0" expanded="true" />
@@ -120,15 +124,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="48">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventDeserializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
               <folding>
-                <element signature="e#422#423#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventSerializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+            <state relative-caret-position="192">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="168">
               <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -161,17 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
+            <state relative-caret-position="1464">
               <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/kafka/KafkaProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -179,10 +178,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/kafka/producer/MetricPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+            <state relative-caret-position="374">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1788#1789#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,7 +192,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/RecordMetadata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
+            <state relative-caret-position="672">
               <caret line="46" column="40" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="40" />
             </state>
           </provider>
@@ -200,7 +201,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
+            <state relative-caret-position="6600">
               <caret line="359" column="81" selection-start-line="359" selection-start-column="81" selection-end-line="359" selection-end-column="81" />
             </state>
           </provider>
@@ -265,6 +266,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bellis/kafka/producer/MetricPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventDeserializer.java" />
       </list>
     </option>
   </component>
@@ -295,7 +297,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="777" />
@@ -518,6 +520,17 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="bellis" type="462c0819:PsiDirectoryNode" />
               <item name="oshi" type="462c0819:PsiDirectoryNode" />
+              <item name="MeasurementEventDeserializer" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="oshiCore" type="b2602c69:ProjectViewProjectNode" />
+              <item name="oshiCore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bellis" type="462c0819:PsiDirectoryNode" />
+              <item name="oshi" type="462c0819:PsiDirectoryNode" />
               <item name="MeasurementEventSerializer" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
@@ -596,7 +609,7 @@
     <property name="SearchEverywhereHistoryKey" value="Duration&#9;PSI&#9;JAVA://java.time.Duration" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566600585130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566657769813" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -726,18 +739,21 @@
       <workItem from="1564863495238" duration="4213000" />
       <workItem from="1565470160981" duration="4468000" />
       <workItem from="1565618363078" duration="295000" />
-      <workItem from="1566366469125" duration="8154000" />
+      <workItem from="1566366469125" duration="8935000" />
+      <workItem from="1566626127414" duration="529000" />
+      <workItem from="1566654098457" duration="440000" />
+      <workItem from="1566657090077" duration="515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132138000" />
+    <option name="totallyTimeSpent" value="134403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.20193861" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -751,7 +767,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" visible="true" weight="0.16735254" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" visible="true" weight="0.1659808" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50080776" side_tool="true" weight="0.26861313" />
@@ -939,9 +955,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/kafka/KafkaProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/RecordMetadata.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="46" column="40" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/KafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
+        <state relative-caret-position="6600">
           <caret line="359" column="81" selection-start-line="359" selection-start-column="81" selection-end-line="359" selection-end-column="81" />
         </state>
       </provider>
@@ -953,49 +983,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="168">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1464">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/kafka/KafkaProperties.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="48">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/SystemAbstraction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+        <state relative-caret-position="683">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
@@ -1012,29 +1027,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/bellis/oshi/MeasurementEventSerializerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="192">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.2.0/kafka-clients-2.2.0-sources.jar!/org/apache/kafka/clients/producer/RecordMetadata.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/oshi/MeasurementEventDeserializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="46" column="40" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="40" />
+        <state relative-caret-position="672">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bellis/kafka/producer/MetricPublisher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1788#1789#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
           </folding>
         </state>
       </provider>
