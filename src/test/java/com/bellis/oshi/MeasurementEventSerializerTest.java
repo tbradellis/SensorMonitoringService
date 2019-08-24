@@ -11,7 +11,7 @@ public class MeasurementEventSerializerTest {
 
     @Test
     public void testSerialization(){
-        float[] fanSpeeds = {1100, 2000};
+        int[] fanSpeeds = {1100, 2000};
         MeasurementEvent event =  new MeasurementEvent(12, 10, fanSpeeds);
         MeasurementEventSerializer serializer = new MeasurementEventSerializer();
         byte[] original = serializer.serialize("test_event", event);

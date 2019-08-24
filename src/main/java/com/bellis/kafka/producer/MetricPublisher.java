@@ -2,6 +2,7 @@ package com.bellis.kafka.producer;
 
 import com.bellis.SystemAbstraction;
 import com.bellis.kafka.KafkaProperties;
+import com.bellis.oshi.MeasurementEvent;
 import com.newrelic.api.agent.Trace;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
@@ -15,7 +16,7 @@ import static com.bellis.kafka.KafkaProperties.MEASUREMENT_EVENT_SERIALIZER;
 
 public class MetricPublisher implements Runnable {
 
-    private final KafkaProducer<String, Float> producer;
+    private final KafkaProducer<String, MeasurementEvent> producer;
     public static SystemAbstraction systemAbstraction;
     private String topic;
 
@@ -52,16 +53,20 @@ public class MetricPublisher implements Runnable {
     }
     @Trace(dispatcher=true)
     public void publish(){
-        publishCPUTemp();
-        publishFanSpeeds();
+        takeMeasurements();
     }
     //TODO change the publisher methods so that they add metrics to a MeasurementEvent
     @Trace
-    public void publishCPUTemp(){
+    public void takeMeasurements(){
         try{
 
-            ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/CPU_Temp/Celsius",
-                    (float)systemAbstraction.getSensors().getCpuTemperature());
+            final float cpuTemp = (float)systemAbstraction.getSensors().getCpuTemperature();
+            final float cpuVoltage = (float)systemAbstraction.getSensors().getCpuVoltage();
+            final int[] fanSpeeds = systemAbstraction.getSensors().getFanSpeeds();
+
+            MeasurementEvent event = new MeasurementEvent(cpuTemp, cpuVoltage, fanSpeeds);
+            ProducerRecord<String, MeasurementEvent> record = new ProducerRecord<>(topic, event );
+
             RecordMetadata metadata = producer.send(record).get();
             System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
 
@@ -69,24 +74,7 @@ public class MetricPublisher implements Runnable {
             e.printStackTrace();
         }
     }
-    @Trace
-    public void publishFanSpeeds(){
 
-       try{
-           int[] fans = systemAbstraction.getSensors().getFanSpeeds();
-           for( int i = 0; i < fans.length; i++){
-
-               ProducerRecord<String, Float> record = new ProducerRecord<>(topic,"Custom/fan_spd/fan" + i,
-                       (float) fans[i] );
-               RecordMetadata metadata = producer.send(record).get();
-               System.out.println(metadata.topic() + " " + metadata.offset() + " " + metadata.timestamp());
-           }
-
-        }catch(Exception e){
-           e.printStackTrace();
-       }
-
-    }
     private static SystemAbstraction initSystemAbstraction(){
         if(systemAbstraction == null){
             SystemAbstraction.initAndGetSystemAbstraction();
