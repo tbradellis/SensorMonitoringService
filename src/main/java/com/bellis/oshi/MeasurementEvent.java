@@ -4,17 +4,17 @@ public class MeasurementEvent {
 
     private float cpuTemp;
     private float cpuVoltage;
-    private float[] fanSpeed;
+    private int[] fanSpeed;
 
 
     public MeasurementEvent(final float cpuTemp,
-            final float cpuVoltage, final float[] fanSpeed){
+            final float cpuVoltage, final int[] fanSpeed){
         this.cpuTemp = cpuTemp;
         this.cpuVoltage = cpuVoltage;
         this.fanSpeed = fanSpeed;
     }
 
-    public float[] getFanSpeed() {
+    public int[] getFanSpeed() {
         return fanSpeed;
     }
 
