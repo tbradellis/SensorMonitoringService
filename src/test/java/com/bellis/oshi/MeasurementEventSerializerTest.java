@@ -1,11 +1,9 @@
 package com.bellis.oshi;
 
-import org.apache.commons.lang3.SerializationUtils;
 import org.junit.Test;
 
-import java.io.Serializable;
-
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotSame;
 
 public class MeasurementEventSerializerTest {
 
@@ -15,9 +13,11 @@ public class MeasurementEventSerializerTest {
         MeasurementEvent event =  new MeasurementEvent(12, 10, fanSpeeds);
         MeasurementEventSerializer serializer = new MeasurementEventSerializer();
         byte[] original = serializer.serialize("test_event", event);
+        MeasurementEventDeserializer deserializer = new MeasurementEventDeserializer();
+        MeasurementEvent copy = deserializer.deserialize("test_event", original);
         //you'll need your the MeasurementEventDeserializer here.
-        Serializable copy = SerializationUtils.clone(original);
-        assertEquals(original, copy);
+        assertEquals(event, copy);
+        assertNotSame(event, copy);
     }
 
 }
