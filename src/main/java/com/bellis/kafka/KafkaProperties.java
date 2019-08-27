@@ -1,7 +1,7 @@
 package com.bellis.kafka;
 
 public class KafkaProperties {
-
+//TODO this should all be moved into a config file
 
     public static final String TOPIC = "sensor-data";
     public static final String KAFKA_SERVER_URL = "localhost";

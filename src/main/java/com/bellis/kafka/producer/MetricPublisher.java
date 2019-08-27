@@ -77,7 +77,7 @@ public class MetricPublisher implements Runnable {
 
     private SystemAbstraction initSystemAbstraction(){
         if(systemAbstraction == null){
-            SystemAbstraction.initAndGetSystemAbstraction();
+            this.systemAbstraction = SystemAbstraction.initAndGetSystemAbstraction();
         }
         return systemAbstraction;
     }
