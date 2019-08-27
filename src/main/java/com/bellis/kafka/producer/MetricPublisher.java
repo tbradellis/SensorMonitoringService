@@ -17,7 +17,7 @@ import static com.bellis.kafka.KafkaProperties.MEASUREMENT_EVENT_SERIALIZER;
 public class MetricPublisher implements Runnable {
 
     private final KafkaProducer<String, MeasurementEvent> producer;
-    public static SystemAbstraction systemAbstraction;
+    private SystemAbstraction systemAbstraction;
     private String topic;
 
     public MetricPublisher(String topic, Boolean isAsync){
@@ -75,7 +75,7 @@ public class MetricPublisher implements Runnable {
         }
     }
 
-    private static SystemAbstraction initSystemAbstraction(){
+    private SystemAbstraction initSystemAbstraction(){
         if(systemAbstraction == null){
             SystemAbstraction.initAndGetSystemAbstraction();
         }

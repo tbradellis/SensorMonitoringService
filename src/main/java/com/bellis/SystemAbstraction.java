@@ -30,15 +30,15 @@ public class SystemAbstraction {
         }
         return sSystemAbstraction;
     }
-    public static SystemInfo getSi() {
+    public static SystemInfo getSystemInfo() {
         return si;
     }
 
-    public static HardwareAbstractionLayer getHal() {
+    public static HardwareAbstractionLayer getHardwareAbstraction() {
         return hal;
     }
 
-    public static OperatingSystem getOs() {
+    public static OperatingSystem getOS() {
         return os;
     }
 
